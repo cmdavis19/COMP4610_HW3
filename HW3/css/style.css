@@ -1,0 +1,21 @@
+/*
+Christa Davis
+christa_davis@student.uml.edu
+Homework Assignment 3
+GUI Programming I
+6/16/22
+*/
+/*body style*/
+body{
+  background-color:#B99BDF;
+  font-size: 18px;
+}
+/*style for button*/
+.button {
+  background-color: purple;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}

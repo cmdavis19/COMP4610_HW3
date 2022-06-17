@@ -1,0 +1,42 @@
+<!--
+Christa Davis
+christa_davis@student.uml.edu
+Homework Assignment 3
+GUI Programming I
+6/16/22
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Multiplication Table</title>
+    <meta charset="utf-8">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Multiplication Table</h1>
+        </header>
+          <!--form for input, min of -50 and max of 50. IDs are
+        so that I can access them in the js document to read -->
+          <form>
+          <label for="input1">First Number (-50 to 50):</label>
+          <input type="number" id="input1" min="-50" max="50"><br>
+         <label for="input2">Second Number (-50 to 50):</label>
+         <input type="number" id="input2" min="-50" max="50"><br>
+          <label for="input3">Third Number (-50 to 50):</label>
+          <input type="number" id="input3"
+                 min="-50" max="50"><br>
+         <label for="input4">Fourth Number (-50 to 50):</label>
+         <input type="number" id="input4"
+                min="-50" max="50"><br>
+        <input type="button" class = "button" onClick="printTable()" Value="Multiply"/>
+      </form>
+      <form>
+<table>
+</table>
+    </div>
+    <script src="js/hw3.js"></script>
+</body>
+
+</html>
